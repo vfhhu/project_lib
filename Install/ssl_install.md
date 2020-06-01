@@ -7,7 +7,7 @@
 #alias acme.sh=~/.acme.sh/acme.sh
 ```
 
-##認證
+##認證及下載憑證
 ```shell
 #acme.sh  --issue  -d domain1 -d domain12  --webroot  server_file_path
 ```
