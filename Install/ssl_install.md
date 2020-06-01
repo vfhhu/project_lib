@@ -13,7 +13,7 @@
 ```
 
 
-##安裝憑證
+##安裝憑證 以下三擇一
 #####Centos Apache
 ```shell
 acme.sh --installcert -d domain \
