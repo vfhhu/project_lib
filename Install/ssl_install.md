@@ -14,6 +14,7 @@
 
 
 ##安裝憑證 
+server_path like /etc/pki/tls/certs/domain<br>
 以下三擇一
 
 #####Centos Apache
