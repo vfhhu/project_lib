@@ -3,8 +3,11 @@
 
 ##安裝 acme.sh
 ```shell
+//Ubuntu20.04
 #curl  https://get.acme.sh | sh -s email=my@example.com
+//other
 #wget -O -  https://get.acme.sh | sh
+
 #alias acme.sh=~/.acme.sh/acme.sh
 ```
 <br><br><br>
