@@ -1,5 +1,7 @@
 #####<a href="https://github.com/acmesh-official/acme.sh/wiki/说明">说明文件</a>
 
+##快速指令
+http://tool.vfhhu.xyz/a_etc/generate_ssl_code.php
 
 ##安裝 acme.sh
 ```shell
