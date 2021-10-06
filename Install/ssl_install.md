@@ -7,7 +7,7 @@
 #alias acme.sh=~/.acme.sh/acme.sh
 ```
 <br><br><br>
-##註冊
+##註冊<br>
 #####網站註冊(已註冊可略過)
 先到zerossl註冊<BR>
 https://zerossl.com/
@@ -35,7 +35,7 @@ acme.sh --renew -d domain1 --force
 ```
 <br><br><br>
 
-##安裝憑證 
+##安裝憑證 <br>
 server_path like /etc/pki/tls/certs/domain<br>
 以下三擇一
 
@@ -83,7 +83,6 @@ server {
     listen [::]:8443 ssl;
     server_name domain;
 
-#    ssl on; 
     ssl_certificate     server_path/nginx.crt;
     ssl_certificate_key server_path/private.key;
     ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
