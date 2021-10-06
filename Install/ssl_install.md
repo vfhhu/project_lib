@@ -8,7 +8,7 @@
 ```
 <br><br><br>
 ##註冊<br>
-#####網站註冊(已註冊可略過)
+#####網站註冊(已註冊可略過)<br>
 先到zerossl註冊<BR>
 https://zerossl.com/
 <br>
@@ -19,8 +19,8 @@ https://app.zerossl.com/signup
 acme.sh  --register-account  -m mail@xxx.com --server zerossl
 ```
 <br><br><br>
-##認證及下載憑證
-#####安裝申請
+##認證及下載憑證<br>
+#####安裝申請<br>
 server_file_path like /var/www/html
 ```shell
 #acme.sh  --issue  -d domain1 -d domain12  --webroot  server_file_path
