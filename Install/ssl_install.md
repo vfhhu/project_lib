@@ -20,6 +20,11 @@ https://app.zerossl.com/signup
 ```shell
 acme.sh  --register-account  -m mail@xxx.com --server zerossl
 ```
+<br><br>
+##改預設認證主機<br>
+```shell
+acme.sh --set-default-ca  --server  letsencrypt
+```
 <br><br><br>
 ##認證及下載憑證<br>
 #####安裝申請<br>
