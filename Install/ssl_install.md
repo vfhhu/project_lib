@@ -32,6 +32,7 @@ acme.sh --set-default-ca  --server  letsencrypt
 <h2>認證及下載憑證</h2>
 <h4>安裝申請</h4>
 server_file_path like /var/www/html
+
 ```shell
 #acme.sh  --issue  -d domain1 -d domain12  --webroot  server_file_path
 ```
