@@ -4,6 +4,7 @@
 http://tool.vfhhu.xyz/a_etc/generate_ssl_code.php
 
 <h2>安裝 acme.sh</h2>
+
 ```shell
 #wget -O -  https://get.acme.sh | sh
 #alias acme.sh=~/.acme.sh/acme.sh
@@ -16,37 +17,42 @@ https://zerossl.com/
 <br>
 https://app.zerossl.com/signup
 <br>
-#####主機註冊
+<h4>主機註冊</h4>
+
 ```shell
 acme.sh  --register-account  -m mail@xxx.com --server zerossl
 ```
 <br><br>
-##改預設認證主機<br>
+<h2>改預設認證主機</h2>
+
 ```shell
 acme.sh --set-default-ca  --server  letsencrypt
 ```
 <br><br><br>
-##認證及下載憑證<br>
-#####安裝申請<br>
+<h2>認證及下載憑證</h2>
+<h4>安裝申請</h4>
 server_file_path like /var/www/html
 ```shell
 #acme.sh  --issue  -d domain1 -d domain12  --webroot  server_file_path
 ```
-#####更新
+<h4>更新</h4>
+
 ```shell
 acme.sh --renew -d domain1
 ```
-#####強制更新
+<h4>強制更新</h4>
+
 ```shell
 acme.sh --renew -d domain1 --force
 ```
 <br><br><br>
 
-##安裝憑證 <br>
+<h2>安裝憑證</h2>
 server_path like /etc/pki/tls/certs/domain<br>
 以下三擇一
 
-#####Centos Apache
+<h4>Centos Apache</h4>
+
 ```shell
 acme.sh --installcert -d domain \
 --cert-file      server_path/certificate.crt  \
@@ -54,7 +60,8 @@ acme.sh --installcert -d domain \
 --fullchain-file server_path/ca_bundle.crt \
 --reloadcmd     "service httpd force-reload"
 ```
-#####Ubuntu Apache
+<h4>Ubuntu Apache</h4>
+
 ```shell
 acme.sh --installcert -d domain \
 --cert-file      server_path/certificate.crt  \
@@ -62,7 +69,8 @@ acme.sh --installcert -d domain \
 --fullchain-file server_path/ca_bundle.crt \
 --reloadcmd     "service apache2 force-reload"
 ```
-#####Nginx
+<h4>Nginx</h4>
+
 ```shell
 acme.sh --installcert -d domain \
 --key-file       server_path/private.key  \
@@ -70,7 +78,7 @@ acme.sh --installcert -d domain \
 --reloadcmd     "service nginx force-reload"
 ```
 
-#####同時安裝apache和nginx
+<h4>同時安裝apache和nginx</h4>
 安裝apache
 ```shell
 acme.sh --installcert -d domain \
