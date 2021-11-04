@@ -80,6 +80,7 @@ acme.sh --installcert -d domain \
 
 <h4>同時安裝apache和nginx</h4>
 安裝apache
+
 ```shell
 acme.sh --installcert -d domain \
 --cert-file      server_path/certificate.crt  \
@@ -88,10 +89,12 @@ acme.sh --installcert -d domain \
 --reloadcmd     "service httpd force-reload"
 ```
 合併crt供nginx使用
+
 ```shell
 cat server_path/certificate.crt server_path/ca_bundle.crt  > server_path/nginx.crt
 ```
 設定nginx site conf
+
 ```shell
 server {
     listen *:8443 ssl;
