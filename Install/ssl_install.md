@@ -1,16 +1,16 @@
 
 
-##快速指令
+<h2>快速指令</h2>
 http://tool.vfhhu.xyz/a_etc/generate_ssl_code.php
 
-##安裝 acme.sh
+<h2>安裝 acme.sh</h2>
 ```shell
 #wget -O -  https://get.acme.sh | sh
 #alias acme.sh=~/.acme.sh/acme.sh
 ```
 <br><br><br>
-##註冊<br>
-#####網站註冊(已註冊可略過)<br>
+<h2>註冊</h2>
+<h4>網站註冊(已註冊可略過)</h4>
 先到zerossl註冊<BR>
 https://zerossl.com/
 <br>
