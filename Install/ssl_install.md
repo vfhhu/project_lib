@@ -22,6 +22,15 @@ https://app.zerossl.com/signup
 ```shell
 acme.sh  --register-account  -m mail@xxx.com --server zerossl
 ```
+<h4>設定帳號</h4>
+```shell
+nano ~/.acme.sh/account.conf 
+```
+
+```shell
+ACCOUNT_EMAIL='xxx@xxx.com'
+```
+<br>
 <br><br>
 <h2>改預設認證主機</h2>
 
