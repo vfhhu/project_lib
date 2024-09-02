@@ -10,17 +10,34 @@
 
 ![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725247573673.jpg)
 
-<h1>四.將修改好的圖檔上傳到步驟2的位置</h1>
+<h1>四.將修改好的圖檔上傳到步驟二的位置</h1>
 
-<h1>五.將修改好的圖檔上傳到 https://www.image-map.net/</h1>
+<h1>五.將修改好的圖檔上傳到 https://summerstyle.github.io/summer/</h1>
 
-![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725248707990.jpg)
+![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725257559020.jpg)
 
-<h1>六.依照上圖順序先選擇1.Active,2.設定shape為poly,3.圈選站點,4.show me the code</h1>
-
-<h1>七.將彈出視窗的 area tag 資料拷貝到 html 的 map tag 裡,並修改href及alt(參考舊資料及官網的設定值)</h1>
+<h1>六.依照下圖順序</h1>
 
 ![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725249089854.jpg)
 
-![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725249127439.jpg)
+1.點from html後會彈出視窗
+2.將舊友有的資料貼進視窗
+3.點load按鈕後會在圖片上顯示舊的圈選區域,如下圖
+
+![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725257718630.jpg)
+
+<h1>七.點edit按鈕可以編輯現有的區塊</h1>
+
+![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725257795697.jpg)
+
+<h1>八.點 polygon 按鈕可以新增區塊</h1>
+
+![image](https://github.com/vfhhu/project_lib/blob/master/HyXen/MRT/1725257827906.jpg)
+
+<h1>九.點 to html 按鈕會跳出含有html碼視窗,複製到第三步驟的位置</h1>
+
+
+
+
+
 
